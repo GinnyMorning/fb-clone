@@ -13,10 +13,12 @@ const logo = 'https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wi
 
 const Header = () => (
   <div className={styles.Header}>
-    <img src={logo} alt="logo" className={styles.logo} />
     <div className={styles.header__left}>
-      <div className>
-        <SearchSharpIcon />
+      <div className={styles.search}>
+        <img src={logo} alt="logo" className={styles.logo} />
+        <div className>
+          <SearchSharpIcon />
+        </div>
       </div>
       <input id={styles.inputText} />
     </div>
