@@ -1,8 +1,14 @@
 import React from 'react';
+import StoryReel from './StoryReel';
+
+import './Style/MainFeed.css';
 
 const mainFeed = () => (
-  <div>
-    <p>This is main feed</p>
+  <div className="feed">
+    {/* Story */}
+    <StoryReel />
+    {/* Massage sender */}
+    {/* Message */}
   </div>
 );
 
