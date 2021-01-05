@@ -12,7 +12,7 @@ import { Avatar, IconButton } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
 import './Style/Header.css';
 
-const logo = 'https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg';
+const logo = 'https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg';
 
 const Header = () => (
   <div className="header">
