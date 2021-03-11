@@ -1,5 +1,5 @@
-import React from 'react';
-import './Style/RightThread.css';
+import React from "react";
+import "./Style/RightThread.css";
 
 const rightThread = () => (
   <div className="rightThread">

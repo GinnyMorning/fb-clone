@@ -1,7 +1,7 @@
-import { Avatar } from '@material-ui/core';
-import React from 'react';
-import './Style/SideBarRow.css';
-import Proptypes from 'prop-types';
+import { Avatar } from "@material-ui/core";
+import React from "react";
+import "./Style/SideBarRow.css";
+import Proptypes from "prop-types";
 
 const SideBarRow = ({ src, Icon, titles }) => (
   <div>

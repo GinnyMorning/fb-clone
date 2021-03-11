@@ -1,7 +1,7 @@
-import React from 'react';
-import './Style/Story.css';
-import Proptypes from 'prop-types';
-import { Avatar } from '@material-ui/core';
+import React from "react";
+import "./Style/Story.css";
+import Proptypes from "prop-types";
+import { Avatar } from "@material-ui/core";
 
 const Story = ({ img, profileSrc, title }) => (
   <div className="story" style={{ backgroundImage: `url(${img})` }}>

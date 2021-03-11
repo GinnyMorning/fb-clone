@@ -1,8 +1,8 @@
-import React from 'react';
-import StoryReel from './StoryReel';
-import MessageSender from './MessageSender';
+import React from "react";
+import StoryReel from "./StoryReel";
+import MessageSender from "./MessageSender";
 
-import './Style/MainFeed.css';
+import "./Style/MainFeed.css";
 
 const mainFeed = () => (
   <div className="feed">

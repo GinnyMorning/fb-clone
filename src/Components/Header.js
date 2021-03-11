@@ -1,18 +1,19 @@
-import React from 'react';
-import HomeIcon from '@material-ui/icons/Home';
-import FlagIcon from '@material-ui/icons/Flag';
-import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
-import StorefrontIcon from '@material-ui/icons/Storefront';
-import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
-import SearchIcon from '@material-ui/icons/Search';
-import ForumIcon from '@material-ui/icons/Forum';
-import NotificationActiveIcon from '@material-ui/icons/NotificationsActive';
-import ExpandMoreIcons from '@material-ui/icons/ExpandMore';
-import { Avatar, IconButton } from '@material-ui/core';
-import AddIcon from '@material-ui/icons/Add';
-import './Style/Header.css';
+import React from "react";
+import HomeIcon from "@material-ui/icons/Home";
+import FlagIcon from "@material-ui/icons/Flag";
+import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
+import StorefrontIcon from "@material-ui/icons/Storefront";
+import PeopleAltIcon from "@material-ui/icons/PeopleAlt";
+import SearchIcon from "@material-ui/icons/Search";
+import ForumIcon from "@material-ui/icons/Forum";
+import NotificationActiveIcon from "@material-ui/icons/NotificationsActive";
+import ExpandMoreIcons from "@material-ui/icons/ExpandMore";
+import { Avatar, IconButton } from "@material-ui/core";
+import AddIcon from "@material-ui/icons/Add";
+import "./Style/Header.css";
 
-const logo = 'https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg';
+const logo =
+  "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg";
 
 const Header = () => (
   <div className="header">

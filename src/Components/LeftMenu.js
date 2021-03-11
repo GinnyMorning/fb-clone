@@ -1,11 +1,11 @@
-import React from 'react';
-import AssignmentIndOutlinedIcon from '@material-ui/icons/AssignmentIndOutlined';
-import GroupIcon from '@material-ui/icons/Group';
-import BookmarksIcon from '@material-ui/icons/Bookmarks';
-import AccountBoxIcon from '@material-ui/icons/AccountBox';
-import SideBarRow from './SideBarRow';
+import React from "react";
+import AssignmentIndOutlinedIcon from "@material-ui/icons/AssignmentIndOutlined";
+import GroupIcon from "@material-ui/icons/Group";
+import BookmarksIcon from "@material-ui/icons/Bookmarks";
+import AccountBoxIcon from "@material-ui/icons/AccountBox";
+import SideBarRow from "./SideBarRow";
 
-import './Style/LeftMenu.css';
+import "./Style/LeftMenu.css";
 
 const LeftMenu = () => (
   <div className="leftMenu">
